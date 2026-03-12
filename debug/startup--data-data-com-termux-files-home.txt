@@ -1,0 +1,44 @@
+2026-03-10T17:33:10.921Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-10T17:33:10.920Z [DEBUG] Extension manager initialized
+2026-03-10T17:33:11.027Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-10T17:33:11.028Z [DEBUG] [SKILL_MANAGER] Skipping project-level skills: project root is home directory
+2026-03-10T17:33:11.029Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-10T17:33:11.029Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-10T17:33:11.029Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-10T17:33:11.044Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-10T17:33:11.045Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-10T17:33:11.045Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-10T17:33:11.045Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-10T17:33:11.045Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-10T17:33:11.045Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-10T17:33:11.050Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-10T17:33:11.050Z [DEBUG] Skill manager initialized
+2026-03-10T17:33:11.051Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home (importFormat: tree)
+2026-03-10T17:33:11.135Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-10T17:33:11.275Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-10T17:33:11.363Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-10T17:33:11.364Z [DEBUG] Hierarchical memory loaded
+2026-03-10T17:33:11.367Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-10T17:33:11.368Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-10T17:33:11.368Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-10T17:33:11.368Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-10T17:33:11.368Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-10T17:33:11.368Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-10T17:33:11.375Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-10T17:33:11.375Z [INFO] Tool registry initialized with 15 tools
+2026-03-10T17:33:11.400Z [INFO] Gemini client initialized
+2026-03-10T17:33:11.403Z [INFO] Config initialization completed
+2026-03-10T17:35:21.134Z [DEBUG] Received user query (9 chars)
+2026-03-10T17:36:01.431Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving general.vimMode immediately with value: true
+2026-03-10T17:39:28.458Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: auto-edit
+2026-03-10T17:39:35.100Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: yolo
+2026-03-10T17:39:36.374Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: plan
+2026-03-10T17:39:37.182Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: default
+2026-03-10T17:39:41.377Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: auto-edit
+2026-03-10T17:39:42.545Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: yolo
+2026-03-10T17:39:43.226Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: plan
+2026-03-10T17:39:43.932Z [DEBUG] [SETTINGS_DIALOG] [DEBUG SettingsDialog] Saving tools.approvalMode immediately with value: default

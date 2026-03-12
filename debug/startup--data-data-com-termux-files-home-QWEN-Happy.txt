@@ -1,0 +1,315 @@
+2026-03-12T09:13:34.886Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-12T09:13:34.885Z [DEBUG] Extension manager initialized
+2026-03-12T09:13:34.954Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-12T09:13:34.955Z [DEBUG] [SKILL_MANAGER] Loading project level skills from: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:13:34.956Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:13:34.974Z [DEBUG] [SKILL_MANAGER] Cannot read skills directory /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/QWEN/Happy/.qwen/skills'
+2026-03-12T09:13:34.974Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:13:34.975Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:13:34.975Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:13:34.975Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:13:34.999Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:13:35.000Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:13:35.001Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:13:35.001Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-12T09:13:35.002Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-12T09:13:35.002Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-12T09:13:35.009Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-12T09:13:35.009Z [DEBUG] Skill manager initialized
+2026-03-12T09:13:35.011Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home/QWEN/Happy (importFormat: tree)
+2026-03-12T09:13:35.017Z [DEBUG] [MEMORY_DISCOVERY] Searching for QWEN.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:13:35.220Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-12T09:13:35.245Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:13:35.279Z [DEBUG] [MEMORY_DISCOVERY] Searching for AGENTS.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:13:35.282Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:13:35.283Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-12T09:13:35.339Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-12T09:13:35.340Z [DEBUG] Hierarchical memory loaded
+2026-03-12T09:13:35.344Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-12T09:13:35.344Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-12T09:13:35.344Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-12T09:13:35.344Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-12T09:13:35.344Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-12T09:13:35.344Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-12T09:14:35.412Z [ERROR] [MCP] Error during discovery for server 'filesystem': MCP error -32001: Request timed out
+2026-03-12T09:14:35.436Z [ERROR] [MCP] Error during discovery for server 'web-search': MCP error -32001: Request timed out
+2026-03-12T09:14:35.470Z [ERROR] [MCP] Error during discovery for server 'sqlite': MCP error -32001: Request timed out
+2026-03-12T09:14:35.501Z [ERROR] [MCP] Error during discovery for server 'mysql': MCP error -32001: Request timed out
+2026-03-12T09:14:35.529Z [ERROR] [MCP] Error during discovery for server 'postgres': MCP error -32001: Request timed out
+2026-03-12T09:14:35.564Z [ERROR] [MCP] Error during discovery for server 'playwright': MCP error -32001: Request timed out
+2026-03-12T09:14:35.600Z [ERROR] [MCP] Error during discovery for server 'github': MCP error -32001: Request timed out
+2026-03-12T09:14:35.624Z [ERROR] [MCP] Error during discovery for server 'memory': MCP error -32001: Request timed out
+2026-03-12T09:14:35.664Z [ERROR] [MCP] Error during discovery for server 'context7': MCP error -32001: Request timed out
+2026-03-12T09:14:35.707Z [ERROR] [MCP] Error during discovery for server 'libretranslate': MCP error -32001: Request timed out
+2026-03-12T09:14:35.708Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-12T09:14:35.709Z [INFO] Tool registry initialized with 15 tools
+2026-03-12T09:14:35.832Z [INFO] Gemini client initialized
+2026-03-12T09:14:35.838Z [INFO] Config initialization completed
+2026-03-12T09:16:03.509Z [DEBUG] Received user query (6 chars)
+2026-03-12T09:17:53.928Z [ERROR] [OPENAI_ERROR] OpenAI API Streaming Error: Connection error.
+2026-03-12T09:17:53.975Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-12T09:17:53.978Z [ERROR] [ERROR_REPORT] Error when talking to API [Turn.run-sendMessageStream] {
+  "error": {
+    "message": "Connection error.",
+    "stack": "Error: Connection error.\n    at OpenAI.makeRequest (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:142316:17)\n    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:143093:27\n    at async ContentGenerationPipeline.executeWithErrorHandling (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:143261:26)\n    at async attemptOperation (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:146076:18)\n    at async QwenContentGenerator.executeWithCredentialManagement (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:146079:18)\n    at async LoggingContentGenerator.generateContentStream (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:133390:21)\n    at async retryWithBackoff (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:157864:22)\n    at async GeminiChat.makeApiCallAndProcessStream (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:158970:33)\n    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:158900:33\n    at async Turn.run (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:161463:28)"
+  },
+  "context": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "This is the Qwen Code. We are setting up the context for our chat.\nToday's date is Thursday, March 12, 2026 (formatted according to the user's locale).\nMy operating system is: android\nI'm currently working in the directory: /data/data/com.termux/files/home/QWEN/Happy\nHere is the folder structure of the current working directories:\n\nShowing up to 20 items:\n\n/data/data/com.termux/files/home/QWEN/Happy/"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Got it. Thanks for the context!"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Привет"
+        }
+      ]
+    },
+    [
+      "Привет"
+    ]
+  ]
+}
+2026-03-12T09:17:55.481Z [ERROR] [QWEN_LOGGER] RUM flush failed. Error: Client network socket disconnected before secure TLS connection was established
+    at TLSSocket.onConnectEnd (node:internal/tls/wrap:1704:19)
+    at TLSSocket.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-03-12T09:17:55.482Z [DEBUG] [QWEN_LOGGER] QwenLogger: Re-queued 1 events for retry (queue size: 2)
+2026-03-12T09:18:12.710Z [DEBUG] Received user query (6 chars)
+2026-03-12T09:18:12.734Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-12T09:18:32.595Z [ERROR] [OPENAI_ERROR] OpenAI API Streaming Error: Request was aborted.
+2026-03-12T09:19:28.985Z [DEBUG] Extension manager initialized
+2026-03-12T09:19:28.985Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-12T09:19:29.082Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-12T09:19:29.082Z [DEBUG] [SKILL_MANAGER] Loading project level skills from: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:19:29.083Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:19:29.100Z [DEBUG] [SKILL_MANAGER] Cannot read skills directory /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/QWEN/Happy/.qwen/skills'
+2026-03-12T09:19:29.101Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:19:29.101Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:19:29.101Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:19:29.101Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:19:29.103Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:19:29.104Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:19:29.104Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:19:29.104Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-12T09:19:29.104Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-12T09:19:29.104Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-12T09:19:29.109Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-12T09:19:29.109Z [DEBUG] Skill manager initialized
+2026-03-12T09:19:29.110Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home/QWEN/Happy (importFormat: tree)
+2026-03-12T09:19:29.140Z [DEBUG] [MEMORY_DISCOVERY] Searching for QWEN.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:19:29.318Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-12T09:19:29.322Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:19:29.355Z [DEBUG] [MEMORY_DISCOVERY] Searching for AGENTS.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:19:29.357Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:19:29.358Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-12T09:19:29.416Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-12T09:19:29.417Z [DEBUG] Hierarchical memory loaded
+2026-03-12T09:19:29.421Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-12T09:19:29.421Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-12T09:19:29.421Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-12T09:19:29.421Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-12T09:19:29.421Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-12T09:19:29.421Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-12T09:19:38.259Z [ERROR] [MCP] Error during discovery for server 'playwright': MCP error -32000: Connection closed
+2026-03-12T09:19:38.487Z [ERROR] [MCP] Error during discovery for server 'sqlite': MCP error -32000: Connection closed
+2026-03-12T09:19:38.573Z [ERROR] [MCP] Error during discovery for server 'mysql': MCP error -32000: Connection closed
+2026-03-12T09:19:38.693Z [ERROR] [MCP] Error during discovery for server 'context7': MCP error -32000: Connection closed
+2026-03-12T09:19:38.794Z [ERROR] [MCP] Error during discovery for server 'web-search': MCP error -32000: Connection closed
+2026-03-12T09:19:40.109Z [ERROR] [MCP] Error during discovery for server 'libretranslate': MCP error -32000: Connection closed
+2026-03-12T09:20:29.489Z [ERROR] [MCP] Error during discovery for server 'filesystem': MCP error -32001: Request timed out
+2026-03-12T09:20:29.608Z [ERROR] [MCP] Error during discovery for server 'postgres': MCP error -32001: Request timed out
+2026-03-12T09:20:29.652Z [ERROR] [MCP] Error during discovery for server 'github': MCP error -32001: Request timed out
+2026-03-12T09:20:29.687Z [ERROR] [MCP] Error during discovery for server 'memory': MCP error -32001: Request timed out
+2026-03-12T09:20:29.688Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-12T09:20:29.689Z [INFO] Tool registry initialized with 15 tools
+2026-03-12T09:20:29.713Z [INFO] Gemini client initialized
+2026-03-12T09:20:29.716Z [INFO] Config initialization completed
+2026-03-12T09:21:05.279Z [DEBUG] Received user query (11 chars)
+2026-03-12T09:21:38.367Z [DEBUG] Received user query (6 chars)
+2026-03-12T09:23:25.864Z [DEBUG] Extension manager initialized
+2026-03-12T09:23:25.865Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-12T09:23:25.958Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-12T09:23:25.959Z [DEBUG] [SKILL_MANAGER] Loading project level skills from: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:23:25.959Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:23:25.976Z [DEBUG] [SKILL_MANAGER] Cannot read skills directory /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/QWEN/Happy/.qwen/skills'
+2026-03-12T09:23:25.976Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:23:25.976Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:23:25.976Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:23:25.976Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:23:26.005Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:23:26.005Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:23:26.006Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:23:26.006Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-12T09:23:26.007Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-12T09:23:26.008Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-12T09:23:26.014Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-12T09:23:26.015Z [DEBUG] Skill manager initialized
+2026-03-12T09:23:26.016Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home/QWEN/Happy (importFormat: tree)
+2026-03-12T09:23:26.025Z [DEBUG] [MEMORY_DISCOVERY] Searching for QWEN.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:23:26.185Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-12T09:23:26.223Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:23:26.225Z [DEBUG] [MEMORY_DISCOVERY] Searching for AGENTS.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:23:26.227Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:23:26.229Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-12T09:23:26.286Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-12T09:23:26.287Z [DEBUG] Hierarchical memory loaded
+2026-03-12T09:23:26.290Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-12T09:23:26.290Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-12T09:23:26.290Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-12T09:23:26.290Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-12T09:23:26.290Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-12T09:23:26.290Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-12T09:23:31.850Z [ERROR] [MCP] Error during discovery for server 'libretranslate': MCP error -32000: Connection closed
+2026-03-12T09:23:31.934Z [ERROR] [MCP] Error during discovery for server 'context7': MCP error -32000: Connection closed
+2026-03-12T09:23:31.996Z [ERROR] [MCP] Error during discovery for server 'mysql': MCP error -32000: Connection closed
+2026-03-12T09:23:32.037Z [ERROR] [MCP] Error during discovery for server 'web-search': MCP error -32000: Connection closed
+2026-03-12T09:23:32.165Z [ERROR] [MCP] Error during discovery for server 'sqlite': MCP error -32000: Connection closed
+2026-03-12T09:23:32.503Z [ERROR] [MCP] Error during discovery for server 'playwright': MCP error -32000: Connection closed
+2026-03-12T09:23:34.535Z [ERROR] [MCP] Error during discovery for server 'memory': MCP error -32000: Connection closed
+2026-03-12T09:23:34.636Z [ERROR] [MCP] Error during discovery for server 'github': MCP error -32000: Connection closed
+2026-03-12T09:23:36.250Z [ERROR] [MCP] Error during discovery for server 'filesystem': MCP error -32000: Connection closed
+2026-03-12T09:23:38.828Z [ERROR] [MCP] Error during discovery for server 'postgres': MCP error -32000: Connection closed
+2026-03-12T09:23:38.829Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-12T09:23:38.829Z [INFO] Tool registry initialized with 15 tools
+2026-03-12T09:23:38.852Z [INFO] Gemini client initialized
+2026-03-12T09:23:38.855Z [INFO] Config initialization completed
+2026-03-12T09:31:03.376Z [DEBUG] Received user query (94 chars)
+2026-03-12T09:32:27.501Z [DEBUG] Received user query (70 chars)
+2026-03-12T09:35:52.919Z [DEBUG] Extension manager initialized
+2026-03-12T09:35:52.920Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-12T09:35:53.015Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-12T09:35:53.016Z [DEBUG] [SKILL_MANAGER] Loading project level skills from: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:35:53.017Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:35:53.033Z [DEBUG] [SKILL_MANAGER] Cannot read skills directory /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/QWEN/Happy/.qwen/skills'
+2026-03-12T09:35:53.033Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:35:53.033Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:35:53.033Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:35:53.033Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:35:53.056Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:35:53.056Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:35:53.057Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:35:53.057Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-12T09:35:53.057Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-12T09:35:53.057Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-12T09:35:53.062Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-12T09:35:53.062Z [DEBUG] Skill manager initialized
+2026-03-12T09:35:53.063Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home/QWEN/Happy (importFormat: tree)
+2026-03-12T09:35:53.069Z [DEBUG] [MEMORY_DISCOVERY] Searching for QWEN.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:35:53.236Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-12T09:35:53.259Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:35:53.276Z [DEBUG] [MEMORY_DISCOVERY] Searching for AGENTS.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:35:53.277Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:35:53.279Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-12T09:35:53.336Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-12T09:35:53.337Z [DEBUG] Hierarchical memory loaded
+2026-03-12T09:35:53.341Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-12T09:35:53.341Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-12T09:35:53.341Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-12T09:35:53.341Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-12T09:35:53.341Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-12T09:35:53.341Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-12T09:35:59.153Z [ERROR] [MCP] Error during discovery for server 'context7': MCP error -32000: Connection closed
+2026-03-12T09:35:59.188Z [ERROR] [MCP] Error during discovery for server 'sqlite': MCP error -32000: Connection closed
+2026-03-12T09:35:59.613Z [ERROR] [MCP] Error during discovery for server 'web-search': MCP error -32000: Connection closed
+2026-03-12T09:35:59.614Z [ERROR] [MCP] Error during discovery for server 'mysql': MCP error -32000: Connection closed
+2026-03-12T09:35:59.823Z [ERROR] [MCP] Error during discovery for server 'libretranslate': MCP error -32000: Connection closed
+2026-03-12T09:36:00.042Z [ERROR] [MCP] Error during discovery for server 'playwright': MCP error -32000: Connection closed
+2026-03-12T09:36:00.288Z [ERROR] [MCP] Error during discovery for server 'memory': MCP error -32000: Connection closed
+2026-03-12T09:36:00.517Z [ERROR] [MCP] Error during discovery for server 'postgres': MCP error -32000: Connection closed
+2026-03-12T09:36:00.716Z [ERROR] [MCP] Error during discovery for server 'github': MCP error -32000: Connection closed
+2026-03-12T09:36:01.188Z [ERROR] [MCP] Error during discovery for server 'filesystem': MCP error -32000: Connection closed
+2026-03-12T09:36:01.189Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-12T09:36:01.189Z [INFO] Tool registry initialized with 15 tools
+2026-03-12T09:36:01.215Z [INFO] Gemini client initialized
+2026-03-12T09:36:01.218Z [INFO] Config initialization completed
+2026-03-12T09:36:18.581Z [DEBUG] Received user query (6 chars)
+2026-03-12T09:37:17.591Z [DEBUG] Received user query (9 chars)
+2026-03-12T09:39:25.244Z [DEBUG] Extension manager initialized
+2026-03-12T09:39:25.244Z [INFO] [SKILL_MANAGER] Starting skill directory watchers...
+2026-03-12T09:39:25.346Z [INFO] [SKILL_MANAGER] Refreshing skills cache...
+2026-03-12T09:39:25.347Z [DEBUG] [SKILL_MANAGER] Loading project level skills from: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:39:25.347Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills
+2026-03-12T09:39:25.362Z [DEBUG] [SKILL_MANAGER] Cannot read skills directory /data/data/com.termux/files/home/QWEN/Happy/.qwen/skills: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/QWEN/Happy/.qwen/skills'
+2026-03-12T09:39:25.362Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:39:25.363Z [DEBUG] [SKILL_MANAGER] Loaded 0 project level skills
+2026-03-12T09:39:25.363Z [DEBUG] [SKILL_MANAGER] Loading user level skills from: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:39:25.363Z [DEBUG] [SKILL_MANAGER] Loading skills from directory: /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:39:25.391Z [DEBUG] [SKILL_MANAGER] Found 0 entries in /data/data/com.termux/files/home/.qwen/skills
+2026-03-12T09:39:25.392Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:39:25.393Z [DEBUG] [SKILL_MANAGER] Loaded 0 user level skills
+2026-03-12T09:39:25.393Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension-level skills from 0 extensions
+2026-03-12T09:39:25.394Z [DEBUG] [SKILL_MANAGER] Loaded 0 extension level skills
+2026-03-12T09:39:25.394Z [INFO] [SKILL_MANAGER] Skills cache refreshed: 0 total skills loaded
+2026-03-12T09:39:25.400Z [INFO] [SKILL_MANAGER] Skill directory watchers started
+2026-03-12T09:39:25.401Z [DEBUG] Skill manager initialized
+2026-03-12T09:39:25.401Z [DEBUG] [MEMORY_DISCOVERY] Loading server hierarchical memory for CWD: /data/data/com.termux/files/home/QWEN/Happy (importFormat: tree)
+2026-03-12T09:39:25.407Z [DEBUG] [MEMORY_DISCOVERY] Searching for QWEN.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:39:25.589Z [DEBUG] [IDE] Failed to read IDE connection directory: Error: ENOENT: no such file or directory, scandir '/data/data/com.termux/files/home/.qwen/ide'
+    at async Object.readdir (node:internal/fs/promises:953:18)
+    at async _IdeClient.getAllConnectionConfigs (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219290:24)
+    at async _IdeClient.getConnectionConfigFromFile (file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:219256:27)
+    at async file:///data/data/com.termux/files/usr/lib/node_modules/@qwen-code/qwen-code/cli.js:218917:39
+2026-03-12T09:39:25.593Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:39:25.626Z [DEBUG] [MEMORY_DISCOVERY] Searching for AGENTS.md starting from CWD: /data/data/com.termux/files/home/QWEN/Happy
+2026-03-12T09:39:25.628Z [DEBUG] [MEMORY_DISCOVERY] Determined project root: None
+2026-03-12T09:39:25.632Z [DEBUG] [MEMORY_DISCOVERY] Final ordered QWEN.md,AGENTS.md paths to read: ["/data/data/com.termux/files/home/.qwen/output-language.md"]
+2026-03-12T09:39:25.688Z [DEBUG] [MEMORY_DISCOVERY] Successfully read and processed imports: /data/data/com.termux/files/home/.qwen/output-language.md (Length: 812)
+2026-03-12T09:39:25.689Z [DEBUG] Hierarchical memory loaded
+2026-03-12T09:39:25.693Z [DEBUG] [SKILL_MANAGER] Listing skills
+2026-03-12T09:39:25.693Z [DEBUG] [SKILL_MANAGER] Using cached skills
+2026-03-12T09:39:25.693Z [DEBUG] [SKILL_MANAGER] Processing 0 project level skills
+2026-03-12T09:39:25.693Z [DEBUG] [SKILL_MANAGER] Processing 0 user level skills
+2026-03-12T09:39:25.693Z [DEBUG] [SKILL_MANAGER] Processing 0 extension level skills
+2026-03-12T09:39:25.693Z [INFO] [SKILL_MANAGER] Listed 0 unique skills
+2026-03-12T09:39:30.781Z [ERROR] [MCP] Error during discovery for server 'playwright': MCP error -32000: Connection closed
+2026-03-12T09:39:30.885Z [ERROR] [MCP] Error during discovery for server 'sqlite': MCP error -32000: Connection closed
+2026-03-12T09:39:31.077Z [ERROR] [MCP] Error during discovery for server 'web-search': MCP error -32000: Connection closed
+2026-03-12T09:39:31.191Z [ERROR] [MCP] Error during discovery for server 'mysql': MCP error -32000: Connection closed
+2026-03-12T09:39:31.192Z [ERROR] [MCP] Error during discovery for server 'libretranslate': MCP error -32000: Connection closed
+2026-03-12T09:39:31.509Z [ERROR] [MCP] Error during discovery for server 'context7': MCP error -32000: Connection closed
+2026-03-12T09:39:31.693Z [ERROR] [MCP] Error during discovery for server 'postgres': MCP error -32000: Connection closed
+2026-03-12T09:39:31.873Z [ERROR] [MCP] Error during discovery for server 'memory': MCP error -32000: Connection closed
+2026-03-12T09:39:31.881Z [ERROR] [MCP] Error during discovery for server 'github': MCP error -32000: Connection closed
+2026-03-12T09:39:32.541Z [ERROR] [MCP] Error during discovery for server 'filesystem': MCP error -32000: Connection closed
+2026-03-12T09:39:32.542Z [DEBUG] ToolRegistry created: ["task","skill","list_directory","read_file","grep_search","glob","edit","write_file","run_shell_command","save_memory","todo_write","ask_user_question","exit_plan_mode","web_fetch","web_search"] (15 tools)
+2026-03-12T09:39:32.542Z [INFO] Tool registry initialized with 15 tools
+2026-03-12T09:39:32.562Z [INFO] Gemini client initialized
+2026-03-12T09:39:32.565Z [INFO] Config initialization completed
+2026-03-12T09:39:57.606Z [DEBUG] Received user query (6 chars)
+2026-03-12T09:40:18.048Z [DEBUG] Received user query (18 chars)
+2026-03-12T09:43:08.250Z [DEBUG] Received user query (208 chars)
+2026-03-12T09:44:14.868Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-12T09:44:14.898Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-12T09:45:43.616Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.
+2026-03-12T09:45:43.653Z [DEBUG] [QWEN_LOGGER] QwenLogger: Flush already in progress, marking pending flush.

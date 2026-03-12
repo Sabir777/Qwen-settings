@@ -1,0 +1,79 @@
+[
+  {
+    "sessionId": "61145cdd-0c6c-4f70-9680-19d560506494",
+    "messageId": 0,
+    "type": "user",
+    "message": "Привет",
+    "timestamp": "2026-03-12T09:16:03.509Z"
+  },
+  {
+    "sessionId": "61145cdd-0c6c-4f70-9680-19d560506494",
+    "messageId": 1,
+    "type": "user",
+    "message": "привет",
+    "timestamp": "2026-03-12T09:18:12.711Z"
+  },
+  {
+    "sessionId": "06c265b4-a017-41dd-b5e3-6bb468aea6ba",
+    "messageId": 0,
+    "type": "user",
+    "message": "авторизация",
+    "timestamp": "2026-03-12T09:21:05.279Z"
+  },
+  {
+    "sessionId": "06c265b4-a017-41dd-b5e3-6bb468aea6ba",
+    "messageId": 1,
+    "type": "user",
+    "message": "Привет",
+    "timestamp": "2026-03-12T09:21:38.367Z"
+  },
+  {
+    "sessionId": "63973d00-bf45-4f2d-9647-ccdf5f761ea8",
+    "messageId": 0,
+    "type": "user",
+    "message": "Перезапустись с новыми настройками. Я поставил русский язык в файле ~/.qwen/output-language.md",
+    "timestamp": "2026-03-12T09:31:03.376Z"
+  },
+  {
+    "sessionId": "63973d00-bf45-4f2d-9647-ccdf5f761ea8",
+    "messageId": 1,
+    "type": "user",
+    "message": "Я уже изменил этот файл. Мне кажется что при старте ты его перезаписал",
+    "timestamp": "2026-03-12T09:32:27.501Z"
+  },
+  {
+    "sessionId": "ffca4a79-f83a-4514-990f-3e27badd18fa",
+    "messageId": 0,
+    "type": "user",
+    "message": "Привет",
+    "timestamp": "2026-03-12T09:36:18.581Z"
+  },
+  {
+    "sessionId": "ffca4a79-f83a-4514-990f-3e27badd18fa",
+    "messageId": 1,
+    "type": "user",
+    "message": "/settings",
+    "timestamp": "2026-03-12T09:37:17.591Z"
+  },
+  {
+    "sessionId": "fee5b9ce-f164-4e37-b617-0991b2bebd18",
+    "messageId": 0,
+    "type": "user",
+    "message": "Привет",
+    "timestamp": "2026-03-12T09:39:57.607Z"
+  },
+  {
+    "sessionId": "fee5b9ce-f164-4e37-b617-0991b2bebd18",
+    "messageId": 1,
+    "type": "user",
+    "message": "Отвечай на русском",
+    "timestamp": "2026-03-12T09:40:18.048Z"
+  },
+  {
+    "sessionId": "fee5b9ce-f164-4e37-b617-0991b2bebd18",
+    "messageId": 2,
+    "type": "user",
+    "message": "Я хочу чтобы ты создал бота телеграм который будет напоминать о днях рождения для моих коллег. Потом я его хочу добавить в групповой чат, а он бы присылал сообщения. Сегодня день рождения у такого то человека",
+    "timestamp": "2026-03-12T09:43:08.250Z"
+  }
+]

@@ -1,0 +1,2 @@
+2026-03-12T09:13:34.482Z [WARN] [SETTINGS] Unknown setting 'notes' will be ignored in /data/data/com.termux/files/home/.qwen/settings.json.
+2026-03-12T09:13:34.719Z [INFO] Config initialization started

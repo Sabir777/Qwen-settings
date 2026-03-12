@@ -1,0 +1,98 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "qwen-oauth"
+    }
+  },
+  "model": {
+    "name": "coder-model"
+  },
+  "general": {
+    "language": "ru",
+    "vimMode": true,
+    "preferredEditor": "neovim"
+  },
+  "tools": {
+    "shell": {
+      "enableInteractiveShell": true
+    }
+  },
+  "ui": {
+    "showLineNumbers": true,
+    "theme": "Qwen Dark"
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/raketa/QWEN"]
+    },
+    "web-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-tavily"],
+      "env": {
+        "TAVILY_API_KEY": ""
+      }
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite", "/home/raketa/QWEN/my_settings_qwen/.qwen/practice.db"]
+    },
+    "mysql": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-mysql"],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "",
+        "MYSQL_PASSWORD": "",
+        "MYSQL_DATABASE": ""
+      }
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "env": {
+        "POSTGRES_HOST": "localhost",
+        "POSTGRES_PORT": "5432",
+        "POSTGRES_USER": "",
+        "POSTGRES_PASSWORD": "",
+        "POSTGRES_DATABASE": ""
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-playwright"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-context7"]
+    },
+    "libretranslate": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-libretranslate"],
+      "env": {
+        "LIBRETRANSLATE_URL": "https://libretranslate.com"
+      }
+    }
+  },
+  "notes": {
+    "setup": [
+      "1. Получите Tavily API ключ: https://tavily.com/api",
+      "2. Получите GitHub токен: https://github.com/settings/tokens",
+      "3. Для MySQL/PostgreSQL — установите СУБД и заполните credentials",
+      "4. LibreTranslate можно поднять локально: docker run -p 5000:5000 libretranslate/libretranslate"
+    ]
+  },
+  "$version": 3
+}
