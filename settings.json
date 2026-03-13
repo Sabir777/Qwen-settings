@@ -82,7 +82,7 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-libretranslate"],
       "env": {
-        "LIBRETRANSLATE_URL": "https://libretranslate.com"
+        "LIBRETRANSLATE_URL": "http://localhost:5000"
       }
     }
   },
